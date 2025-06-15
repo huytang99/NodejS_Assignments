@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-http-server",
+  "version": "1.0.0",
+  "description": "A custom HTTP server implementation in Node.js",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "setup": "node setup.js",
+    "generate-certs": "node scripts/generate-certs.js"
+  },
+  "keywords": [
+    "nodejs",
+    "http",
+    "server",
+    "api",
+    "rest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
